@@ -1,0 +1,872 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav.nav a p.cookiez_title{
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: transparent;
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    letter-spacing: 20px;
+    padding: 0px 30px;
+}
+
+body nav.nav a.cookiez_link{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+nav.nav{
+    background-color: rgb(29, 28, 31);
+    color: whitesmoke;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    height: 8vh;
+    line-height: 8vh;
+    padding: 0px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+ul.unorderedlist li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 15px;
+    text-align: center;
+    min-width: 120px;
+}
+
+ul.unorderedlist li a:hover{
+    background-color: #fff;
+    color: #62d5f5;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+body nav.nav ul.unorderedlist{
+    list-style: none;
+    float: right;
+    padding: 0px 50px;
+    height: inherit;
+    line-height: inherit;
+}
+
+nav.nav ul.unorderedlist li.list{
+    display: inline-block;
+    list-style: none;
+}
+
+body nav.nav button.navbartoggler{
+    display: none;
+}
+
+html body div.bg{
+    background-image: url("You\'ll\ Want\ These\ Chocolate\ Chip\ Cookies\ Every\ Darn\ Day\ -\ Williams-Sonoma\ Taste.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+
+body div.bg div.overlay{
+    background-color: rgba(0, 0, 0, 0.399);
+    height: 92vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+div div.overlay h3.h3{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+div div.overlay h1.h1{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+html body div.quote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+body div.quote div.quote_container{
+    padding-top: 3%;
+    width: 600px;
+    max-width: 80%;
+    padding-bottom: 3%;
+}
+
+div.quote div.quote_container p.quotepara{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html body div.services_bigcontainer{
+    text-align: center;
+}
+
+body div.services_bigcontainer div.service_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+html body hr.redbar{
+    width: 5%; 
+    height: 2px;
+    margin: 0px auto;
+    padding: 3px;
+    padding-left: 20em;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+div.service_head div.div h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+}
+
+html body div.servicerow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 5% 0%;
+}
+
+body div.servicerow div.service{
+    width: 500px;
+    /* border: solid 2px red; */
+    text-align: center;
+    margin: 0px 20px;
+}
+
+div.servicerow div.service img{
+    width: 100%;
+    height: 350px;
+}
+
+div.service a button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    color: white;
+    background-color: #62d5f5;
+    padding: 4% 9%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #62d5f5;
+}
+
+div.servicerow div.service h3{
+    margin: 5% 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.servicerow div.service p{
+    height: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html body div.knowmore{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("bakepic.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    color: whitesmoke;
+}
+
+body div.knowmore div.knowmore_head{
+    background-color: rgba(0, 0, 0, 0.546);
+    height: 66vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 10vh;
+
+}
+
+div.knowmore div p.knowmore_title{
+    width: 350px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+div.knowmore_head div hr.redbar2{
+    width: 40px;
+    margin-top: 25px;
+    padding: 3px;
+    padding-left: 10em;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+div.knowmore_head div p.knowmore_body{
+    width: 350px;
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 100  !important;
+}
+
+div a button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 0px;
+    color: white;
+    background-color: #62d5f5;
+    padding: 4% 9%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #62d5f5;
+}
+
+table.lastSectionTable tr.tableRow td{
+    width: 220px;
+}
+
+/* tr.tableRow td img.imgpic{
+    width: 100%;
+} */
+
+tr td img.imgpic{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+html body div.lastSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+div.lastSection a button.memberbtn{
+    padding: 8% 4% !important;
+    width: 200px !important;
+    margin-top: 95% !important;
+}
+
+body div.lastSection table.lastSectionTable{
+    margin-left: 100px;
+}
+
+
+html body div.mode{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+body div.mode button.dark{
+    font-size: 25px;
+    background-color: rgb(29, 28, 31);
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+body div.mode button.bright{
+    margin: 0px 10px;
+    font-size: 25px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+html body footer.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(29, 28, 31);
+    color: whitesmoke;
+    padding: 5vh 0px;
+    line-height: 25px;
+}
+
+html body div.aboutustext{
+    padding: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+body div.aboutustext p.aboutusp{
+    margin-bottom: 25px;
+}
+
+html body div.visionmisiondiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body div.visionmisiondiv div.vision{
+    /* width: 35%;
+    min-width: 250px; */
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+body div.visionmisiondiv div.mission{
+    /* width: 35%;
+    min-width: 250px; */
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+div.visionmisiondiv div.vision h4{
+    background-color: #62d5f5;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+div.visionmisiondiv div.mission h4{
+    background-color: #62d5f5;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+
+html body div.objdiv{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body div.objdiv div.obj{
+    /* width: 70%;
+    min-width: 250px; */
+    width: 90%;
+    max-width: 1100px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+div.objdiv div.obj h4.objh4{
+    background-color: #62d5f5;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+div.objdiv div.obj ul{
+    padding: 0px 30px;
+}
+
+div.quote div img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    
+}
+
+html body div.quote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.quote div i.fa-solid{
+    color: rgb(196, 209, 204);
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+div.quote div h3{
+    font-size: 27px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 20em;
+}
+
+div.quote div p{
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+html body div.contact_para{
+    /* width: 800px; */
+    padding: 3% 20%;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+html body div.contactUsSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5%;
+}
+
+div.contactUsSection div.reachUs h2{
+    font-size: 40px;
+    margin-bottom: 75px;
+    font-weight: 700;
+}
+
+div.contactUsSection div.reachUs p.email{
+    padding-bottom: 55px;
+}
+
+div.contactUsSection div.reachUs p.number{
+    padding-bottom: 55px;
+}
+
+div.contactUsSection div.reachUs p.area{
+    padding-bottom: 55px;
+}
+
+div.contactUsSection div.request form.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 100px; */
+}
+
+div.contactUsSection div.request h2{
+    font-size: 40px;
+    margin-bottom: 75px;
+    font-weight: 700;
+    /* padding-left: 100px; */
+}
+
+div.request form.form input.fullName{
+    margin-bottom: 20px;
+    padding: 16px;
+    border-color: rgb(73, 181, 235);
+    border-radius: 10px;
+}
+
+div.request form.form input.emailAdress{
+    margin-bottom: 20px;
+    padding: 16px;
+    border-color: rgb(73, 181, 235);
+    border-radius: 10px;
+
+}
+
+div.request form.form input.phoneNumber{
+    margin-bottom: 20px;
+    padding: 16px;
+    border-color: rgb(73, 181, 235);
+    border-radius: 10px;
+}
+
+div.request form.form textarea{
+    margin-bottom: 20px;
+    padding: 16px;
+    border-color: rgb(73, 181, 235);
+    border-radius: 10px;
+}
+
+form.form input{
+    width: 550px;
+}
+
+body div.contactUsSection div.reachUs{
+    margin: 0px 40px;
+}
+
+body div.contactUsSection div.request{
+    margin: 0px 40px;
+}
+
+
+
+body div.buttondiv button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(73, 181, 235);
+    padding: 10px;
+    text-transform: uppercase;
+    border-color: rgb(73, 181, 235);
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    text-align: center;
+    align-items: center;
+
+}
+
+
+/* STYLE FOR TABLET VIEW */
+@media(max-width: 800px){
+    html body nav.nav{
+        padding: 0px;
+    }
+
+    body nav.nav ul.unorderedlist{
+        width: 100%;
+        padding: 0px;
+        background-color: #333;
+        height: auto;
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease-in-out 0.3s;
+    }
+
+    body nav.nav ul.open{
+        max-height: 100vh;
+    }
+    nav.nav ul.unorderedlist li.list{
+        width: 100%;
+    }
+
+    nav.nav ul.unorderedlist li.list a{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    body nav.nav button.navbartoggler{
+        display: block;
+        position: absolute;
+        height: 40px;
+        right: 20px;
+        top: 15px;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0px 5px;
+        cursor: pointer;
+    }
+
+    nav.nav button.navbartoggler span,
+    nav.nav button.navbartoggler span::before,
+    nav.nav button.navbartoggler span::after{
+        display: block;
+        content: "";
+        background-color: #fff;
+        height: 3px;
+        width: 28px;
+        border-radius: 10px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    nav.nav button.navbartoggler span::before{
+        transform: translateY(-8px);
+    }
+
+    nav.nav button.navbartoggler span::after{
+        transform: translateY(5px);
+    }
+
+    nav.nav button.navbartoggler.open-navbartoggler span{
+        background-color: transparent;
+    }
+
+    nav.nav button.navbartoggler.open-navbartoggler span::before{
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    nav.nav button.navbartoggler.open-navbartoggler span::after{
+        transform: translateY(-3px) rotate(-45deg);
+    }
+
+    body div.servicerow div.service{
+        margin-top: 5%;
+    }
+
+    table.lastSectionTable tr.tableRow td{
+        width: 350px;
+    }
+
+    body div.lastSection table.lastSectionTable{
+        margin: 0px auto;
+    }
+
+    /* tr td img.imgpic{
+        width: 70%;
+        height: 240px;
+        border-radius: 10px;
+        padding: 2%;
+    } */
+
+    table.lastSectionTable tr.tableRow td{
+        width: 220px;
+        height: 250px;
+    }
+
+}
+
+/* STYLE FOR 460 WIDTH VIEW */
+@media(max-width: 460px){
+
+    div.service a button{
+        margin-top: 70px;
+    }
+
+    body div.knowmore div.knowmore_head{
+        justify-content: center;
+    }
+
+    body div.mode button.bright{
+        margin-top: 40px;
+    }
+
+    html body div.mode{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body div.visionmisiondiv div.vision{
+        /* width: 35%;
+        min-width: 250px; */
+        width: 300px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    body div.visionmisiondiv div.mission{
+        /* width: 35%;
+        min-width: 250px; */
+        width: 300px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    div.quote div h3{
+        font-size: 25px;
+        font-family: sans-serif;
+        line-height: 1.3em;
+        font-weight: 600;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+    html body div.contact_para{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    form.form input{
+        width: 280px;
+    }
+
+    form.form textarea{
+        width: 280px;
+    }
+}
+
+/* STYLE FOR PHONE VIEW */
+@media(max-width: 300px){
+    nav.nav a p.cookiez_title{
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+
+    html body div.contact_para{
+        padding: 5%;
+        line-height: 23px;
+        margin-bottom: 5px;
+    }
+
+    div.contactUsSection div.reachUs h2{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+
+    body div.contactUsSection div.reachUs{
+        margin: 5%;
+    }
+
+    div.contactUsSection div.reachUs p.email{
+        padding-bottom: 20px;
+    }
+    
+    div.contactUsSection div.reachUs p.number{
+        padding-bottom: 20px;
+    }
+    
+    div.contactUsSection div.reachUs p.area{
+        padding-bottom: 20px;
+    }
+
+    div.contactUsSection div.request h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    body div.contactUsSection div.request{
+        margin: 10%;
+    }
+
+    form.form input{
+        width: 250px;
+    }
+
+    form.form textarea{
+        width: 250px;
+    }
+
+    body nav.nav button.navbartoggler{
+        top: 5px;
+    }
+
+    body div.visionmisiondiv div.vision{
+        width: 250px;
+        margin-bottom: 25px;
+    }
+    
+    body div.visionmisiondiv div.mission{
+        width: 250px;
+        margin-bottom: 25px;
+    }
+
+    body div.objdiv div.obj{
+        width: 80%;
+    }
+
+    div.objdiv div.obj ul{
+        padding: 0px 15px;
+    }
+
+    div.quote div h3{
+        font-size: 20px;
+        font-family: sans-serif;
+        line-height: 1.5em;
+        font-weight: 400;
+        margin-bottom: 15px;
+        width: 13em;
+    }
+
+    div.quote div i.fa-solid{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    html body footer.footer{
+        padding: 5vh 10px;
+    }
+
+    /* Tikristi's Task */
+
+    div.service a button{
+        margin-top: 135px;
+    }
+
+    body div.knowmore div.knowmore_head{
+        justify-content: center;
+    }
+
+    html body div.knowmore{
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    body div.knowmore div.knowmore_head{
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* padding: 1px; */
+        width: 100vw;
+    
+    }
+    
+    div.knowmore div p.knowmore_title{
+        width: 250px;
+        font-size: 20px;
+    }
+    
+    div.knowmore_head div hr.redbar2{
+        width: 20px;
+        margin-top: 25px;
+        padding: 3px;
+        padding-left: 10em;
+        border-radius: 20px;
+        margin-top: 12px;
+    }
+    
+    div.knowmore_head div p.knowmore_body{
+        width: 250px;
+        margin-top: 25px;
+        line-height: 30px;
+        font-size: 17px;
+        font-weight: 100  !important;
+    }
+
+    html body hr.redbar{
+        width: 5%; 
+        height: 2px;
+        margin: 0px auto;
+        padding: 3px;
+        padding-left: 10em;
+        border-radius: 20px;
+        margin-top: 1px;
+    }
+
+    div.lastSection a button.memberbtn{
+        padding: 8% 4% !important;
+        width: 200px !important;
+        margin-top: 25% !important;
+    }
+}
